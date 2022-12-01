@@ -5,7 +5,7 @@ module Administrate
   module Field
     class Tinymce < Administrate::Field::Base
       class Engine < ::Rails::Engine
-        Administrate::Engine.add_javascript 'administrate-field-tinymce/application'
+        # Administrate::Engine.add_javascript 'administrate-field-tinymce/application'
       end
 
       def to_s
