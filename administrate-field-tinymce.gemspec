@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'administrate-field-tinymce'
-  spec.version       = '1.0.0'
+  spec.version       = '1.1.0'
   spec.authors       = ['Keshav Biswa']
   spec.email         = ['keshavbiswa21@gmail.com']
 
@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'administrate', '< 1.0.0'
   spec.add_runtime_dependency 'rails', '>= 6.1'
-  spec.add_runtime_dependency 'tinymce-rails', '~> 6.3'
+  spec.add_runtime_dependency 'tinymce-rails', '~> 7.0'
 end
